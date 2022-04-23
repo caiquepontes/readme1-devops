@@ -25,6 +25,7 @@ Não é preciso estar ordenado.
 3. Alterei o arquivo de configuração do nginx dentro do container para apresentar o arquivo.tar.
 
 Entrando no container: docker exec -it e6ca0534a1d0 /bin/bash
+
 Diretorio conf nginx: /etc/nginx/conf.d/default.conf
 
 4. Dei um stop e um start no container para pegar a nova configuração do nginx
