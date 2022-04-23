@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ~/Downloads/desafio
-cat [1-9]*.txt
+tail -1 [1-9]*.txt
