@@ -13,10 +13,12 @@ Não é preciso estar ordenado.
 #################################################################################################
 
 1. Criei uma imagem Docker
+   
    Comando: docker build -t servindo-arquivo-tar-image2 .
 
 
-2. rodei o container servindo o nginx
+2. Rodei o container servindo o nginx
+   
    Comando: docker run -d -p 80:80 --name nginx-desafio1 servindo-arquivo-tar-image2
 
 
@@ -34,6 +36,6 @@ comando; docker start nginx-desafio1
 5. Entrar no localhost no meu navegador e baixar os arquivos desafio.tar.
 
 
-Criar um script que imprima a string dos arquivos baixados.
+6. Script criado para imprimir as strings do arquivo baixado.
 
  imprimir.sh
